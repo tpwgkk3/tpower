@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>About TPower | Trusted Online Gaming Platform</title>
+  <meta name="description" content="Learn about TPower, a trusted online gaming platform built on security, transparency, and reliable 24/7 support for players across Asia.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="TPower">
+
+  <link rel="canonical" href="https://www.tpower.online/about.html">
+  <link rel="alternate" href="https://www.tpower.online/about.html" hreflang="en">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="manifest" href="/favicon/site.webmanifest">
+
+  <link href="content/style.css" rel="stylesheet">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="About TPower | Trusted Online Gaming Platform">
+  <meta property="og:site_name" content="TPower">
+  <meta property="og:url" content="https://www.tpower.online/about.html">
+  <meta property="og:description" content="Learn about TPower, a trusted online gaming platform built on security, transparency, and reliable 24/7 support.">
+  <meta property="og:image" content="https://www.tpower.online/og-image.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="About TPower | Trusted Online Gaming Platform">
+  <meta name="twitter:description" content="Learn about TPower, a trusted online gaming platform built on security, transparency, and reliable 24/7 support.">
+  <meta name="twitter:image" content="https://www.tpower.online/og-image.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "About TPower",
+    "url": "https://www.tpower.online/about.html",
+    "description": "Learn about TPower, a trusted online gaming platform known for security, transparency, and reliable support.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "TPower",
+      "url": "https://www.tpower.online",
+      "logo": "https://www.tpower.online/content/logo.png"
+    }
+  }
+  </script>
+    <link rel="stylesheet" href="./files/all.min.css">
+    
+    <style>
+        /* Global Styles */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; }
+        body { background-color: #f8f9fa; color: #333; line-height: 1.6; }
+        a { text-decoration: none; color: #e63946; }
+        
+        .container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 15px; }
+        
+        .btn { 
+            display: inline-block; 
+            padding: 12px 25px; 
+            background-color: #c30001; 
+            color: white; 
+            border-radius: 4px; 
+            font-weight: bold; 
+            transition: all 0.3s ease; 
+        }
+        .btn:hover { background-color: #810102; transform: translateY(-2px); }
+
+        /* Navigation */
+        .navbar {
+            background-color: #000;
+            color: white;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .navbar .container { display: flex; justify-content: space-between; align-items: center; }
+        .logo img { height: 40px; width: auto; }
+        .nav-side { flex: 1; } /* Helper for centering logo */
+
+        /* Hero Section */
+        .hero {
+            min-height: 80vh;
+            background: #0f0000 url('./bg.png') center/cover no-repeat;
+            color: white;
+            display: flex;
+            align-items: center;
+            margin-top: 60px;
+            padding: 40px 0;
+        }
+        .hero .container { display: flex; align-items: center; gap: 40px; }
+        .hero-content, .hero-image { flex: 1; }
+        .hero-image img { max-width: 100%; border-radius: 8px; }
+        .hero h1 { font-size: 48px; margin-bottom: 20px; }
+        .hero p { font-size: 18px; margin-bottom: 30px; }
+
+        /* Games Grid */
+        .games-section { padding: 80px 0; background: #fff; }
+        .section-title { text-align: center; margin-bottom: 40px; }
+        .games-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); 
+            gap: 20px; 
+            margin-bottom: 50px; 
+        }
+        .game-card { 
+            background: #fff; 
+            border-radius: 8px; 
+            overflow: hidden; 
+            transition: transform 0.3s; 
+            border: 1px solid #fff;
+        }
+        .game-card:hover { transform: translateY(-10px); }
+        .game-card img { width: 100%; display: block; }
+
+        .games-content { max-width: 800px; margin: 0 auto; }
+        .games-content h1 { font-size: 28px; margin-bottom: 20px; }
+        .games-content ul { padding-left: 20px; margin-bottom: 20px; }
+
+        /* Footer */
+        footer { background: #000; color: white; padding: 40px 0 20px; text-align: center; }
+        .footer-links { margin: 20px 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+        .footer-links a { color: #ccc; font-size: 14px; }
+        .footer-links a:hover { color: #c30001; }
+        .footer-bottom { border-top: 1px solid #222; padding-top: 20px; font-size: 13px; }
+
+        /* Mobile Adjustments */
+        @media (max-width: 768px) {
+            .hero .container { flex-direction: column; text-align: center; }
+            .hero-image { order: -1; }
+            .hero h1 { font-size: 32px; }
+            .games-grid { grid-template-columns: repeat(3, 1fr); }
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="container">
+        <div class="nav-side">
+            <a href="/"><img src="/files/homepage.png" alt="Home" style="height: 30px;"></a>
+        </div>
+        <div class="logo">
+            <img src="./files/logo.webp" alt="TPower Logo">
+        </div>
+        <div class="nav-side"></div> </div>
+</nav>
+
+<section class="hero">
+    <div class="container">
+        <div class="hero-image">
+            <img src="./files/banner_en.png" alt="TPower Banner">
+        </div>
+        <div class="hero-content">
+            <p>TPower has built a strong reputation as a trusted online gaming platform in Malaysia, delivering secure and reliable entertainment services to players across Malaysia, Singapore, and Southeast Asia.</p>
+            <a href="/login" class="btn" target="_blank">Start Playing Now</a>
+        </div>
+    </div>
+</section>
+
+<section class="games-section">
+    <div class="container">
+        <div class="section-title">
+            <h2>Tpower Hot Games 🔥</h2>
+        </div>
+        <div class="games-grid">
+            <div class="game-card"><img src="./files/tpower3-4d-lottery.png" alt="Tpower3 4d"></div>
+            <div class="game-card"><img src="./files/tpower3-astar-casino.png" alt="Tpower3 astar"></div>
+            <div class="game-card"><img src="./files/tpower3-dreamgaming-casino.png" alt="Tpower3 dreamgaming"></div>
+            <div class="game-card"><img src="./files/tpower3-joker-baccarat.png" alt="Tpower3 joker baccarat"></div>
+            <div class="game-card"><img src="./files/tpower3-playtech-casino.png" alt="Tpower3 playtech"></div>
+            <div class="game-card"><img src="./files/tpower3-bwg-slot.png" alt="Tpower3 bwg slot"></div>
+            <div class="game-card"><img src="./files/tpower3-epicwin-slot.png" alt="Tpower3 epicwin slot"></div>
+            <div class="game-card"><img src="./files/tpower3-lfc888-slot.png" alt="Tpower3 lfc888 slot"></div>
+            <div class="game-card"><img src="./files/tpower3-mega888-slot.png" alt="Tpower3 mega888 slot"></div>
+            <div class="game-card"><img src="./files/tpower3-pegasus-slot.png" alt="Tpower3 pegasus slot"></div>
+            <div class="game-card"><img src="./files/tpower3-uu-slot.png" alt="Tpower3 uu slot"></div>
+            <div class="game-card"><img src="./files/tpower3-918kiss-slot.png" alt="Tpower3 918kiss slot"></div>
+            <div class="game-card"><img src="./files/tpower3-vpower-slot.png" alt="Tpower3 vpower slot"></div>
+            <div class="game-card"><img src="./files/tpower3-maxbet-sportbet.png" alt="Tpower3 maxbet sportbet"></div>
+            <div class="game-card"><img src="./files/tpower3-wbet-sportbet.png" alt="Tpower3 wbet sportbet"></div>
+        </div>
+
+        <div class="games-content">
+<h1>About TPower</h1>
+<p>TPower is a trusted online gaming platform committed to system stability, operational transparency, and a seamless user experience. Built to serve players across Malaysia, Singapore, and the wider Southeast Asia region, TPower combines modern web standards with reliable, professional service practices.</p>
+
+<h2>Our Mission</h2>
+<p>Our mission is to provide a secure, well-managed online platform where users can enjoy entertainment with complete peace of mind. We prioritize technical reliability, strong security protocols, and responsive customer support at every step.</p>
+
+<h2>What TPower Offers</h2>
+<ul>
+    <li>A fast, browser-based platform built on modern HTML5 standards — no app downloads required.</li>
+    <li>A wide range of game categories from verified, established providers.</li>
+    <li>Localized, multilingual support for a personalized user experience.</li>
+    <li>Transparent policies focused on data privacy and account security.</li>
+</ul>
+
+<h2>Our Commitment to Security and Fair Play</h2>
+<p>TPower follows industry best practices and regional standards across all the markets we operate in. Our systems undergo regular reviews to maintain fairness, platform stability, and responsible operations for every player.</p>
+    </div>
+</div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-links">
+            <a href="/about.html">About</a>
+            <a href="/contact.html">Contact</a>
+            <a href="/faq.html">Faq</a>
+            <a href="/privacy.html">Privacy Policy</a>
+            <a href="/terms.html">Terms</a>
+            <a href="/readme.html">Site Info</a>
+            <a href="/how-to-register-tpower3.html">Register Guide</a>
+            <a href="/what-is-tpower.html">What Is Tpower</a>
+            <a href="/tpower-game-providers.html">Game Providers</a>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 <a href="https://www.tpower2.net">TPower2</a> | <a href="https://www.tpower3.net">TPower3</a>. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // Optimized Scroll Effect
+    window.addEventListener('scroll', () => {
+        const navbar = document.querySelector('.navbar');
+        navbar.style.padding = window.scrollY > 50 ? '8px 0' : '15px 0';
+    });
+</script>
+
+</body>
+</html>
