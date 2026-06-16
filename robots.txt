@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Disallow: /signup
+Disallow: /admin/
+Disallow: /login
+
+Sitemap: https://www.tpower.online/sitemap.xml
