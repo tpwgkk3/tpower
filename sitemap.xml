@@ -4,112 +4,114 @@
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-    <!-- English Homepage -->
-    <url>
-        <loc>https://www.tpower.online/</loc>
 
-        <xhtml:link 
-            rel="alternate" 
-            hreflang="en"
-            href="https://www.tpower.online/" />
+  <!-- Homepage -->
+  <url>
+    <loc>https://www.tpower.online/</loc>
 
-        <xhtml:link 
-            rel="alternate" 
-            hreflang="zh-CN"
-            href="https://www.tpower.online/cn.html" />
+    <xhtml:link 
+      rel="alternate"
+      hreflang="en"
+      href="https://www.tpower.online/" />
 
-        <xhtml:link 
-            rel="alternate" 
-            hreflang="x-default"
-            href="https://www.tpower.online/" />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://www.tpower.online/cn.html" />
 
-        <lastmod>2026-07-07</lastmod>
-    </url>
+    <xhtml:link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://www.tpower.online/" />
 
-
-    <!-- Chinese Homepage -->
-    <url>
-        <loc>https://www.tpower.online/cn.html</loc>
-
-        <xhtml:link 
-            rel="alternate" 
-            hreflang="en"
-            href="https://www.tpower.online/" />
-
-        <xhtml:link 
-            rel="alternate" 
-            hreflang="zh-CN"
-            href="https://www.tpower.online/cn.html" />
-
-        <xhtml:link 
-            rel="alternate" 
-            hreflang="x-default"
-            href="https://www.tpower.online/" />
-
-        <lastmod>2026-07-07</lastmod>
-    </url>
+    <lastmod>2026-07-07</lastmod>
+  </url>
 
 
-    <!-- About -->
-    <url>
-        <loc>https://www.tpower.online/about.html</loc>
-        <lastmod>2026-07-07</lastmod>
-    </url>
+  <!-- Chinese Version -->
+  <url>
+    <loc>https://www.tpower.online/cn.html</loc>
+
+    <xhtml:link 
+      rel="alternate"
+      hreflang="en"
+      href="https://www.tpower.online/" />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://www.tpower.online/cn.html" />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://www.tpower.online/" />
+
+    <lastmod>2026-07-07</lastmod>
+  </url>
 
 
-    <!-- What Is TPower -->
-    <url>
-        <loc>https://www.tpower.online/what-is-tpower.html</loc>
-        <lastmod>2026-07-07</lastmod>
-    </url>
+  <!-- About -->
+  <url>
+    <loc>https://www.tpower.online/about.html</loc>
+    <lastmod>2026-07-07</lastmod>
+  </url>
 
 
-    <!-- Registration Guide -->
-    <url>
-        <loc>https://www.tpower.online/how-to-register-tpower.html</loc>
-        <lastmod>2026-07-07</lastmod>
-    </url>
+  <!-- What is TPower -->
+  <url>
+    <loc>https://www.tpower.online/what-is-tpower.html</loc>
+    <lastmod>2026-07-07</lastmod>
+  </url>
 
 
-    <!-- Game Providers -->
-    <url>
-        <loc>https://www.tpower.online/tpower-game-providers.html</loc>
-        <lastmod>2026-07-07</lastmod>
-    </url>
+  <!-- Registration Guide -->
+  <url>
+    <loc>https://www.tpower.online/how-to-register-tpower.html</loc>
+    <lastmod>2026-07-07</lastmod>
+  </url>
 
 
-    <!-- FAQ -->
-    <url>
-        <loc>https://www.tpower.online/faq.html</loc>
-        <lastmod>2026-07-07</lastmod>
-    </url>
+  <!-- Game Providers -->
+  <url>
+    <loc>https://www.tpower.online/tpower-game-providers.html</loc>
+    <lastmod>2026-07-07</lastmod>
+  </url>
 
 
-    <!-- Contact -->
-    <url>
-        <loc>https://www.tpower.online/contact.html</loc>
-        <lastmod>2026-07-07</lastmod>
-    </url>
+  <!-- FAQ -->
+  <url>
+    <loc>https://www.tpower.online/faq.html</loc>
+    <lastmod>2026-07-07</lastmod>
+  </url>
 
 
-    <!-- Privacy Policy -->
-    <url>
-        <loc>https://www.tpower.online/privacy.html</loc>
-        <lastmod>2026-07-07</lastmod>
-    </url>
+  <!-- Contact -->
+  <url>
+    <loc>https://www.tpower.online/contact.html</loc>
+    <lastmod>2026-07-07</lastmod>
+  </url>
 
 
-    <!-- Terms -->
-    <url>
-        <loc>https://www.tpower.online/terms.html</loc>
-        <lastmod>2026-07-07</lastmod>
-    </url>
+  <!-- Privacy -->
+  <url>
+    <loc>https://www.tpower.online/privacy.html</loc>
+    <lastmod>2026-07-07</lastmod>
+  </url>
 
 
-    <!-- Readme -->
-    <url>
-        <loc>https://www.tpower.online/readme.html</loc>
-        <lastmod>2026-07-07</lastmod>
-    </url>
+  <!-- Terms -->
+  <url>
+    <loc>https://www.tpower.online/terms.html</loc>
+    <lastmod>2026-07-07</lastmod>
+  </url>
+
+
+  <!-- Readme -->
+  <url>
+    <loc>https://www.tpower.online/readme.html</loc>
+    <lastmod>2026-07-07</lastmod>
+  </url>
+
 
 </urlset>
